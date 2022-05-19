@@ -874,9 +874,9 @@ td {
   visibility: hidden;
 }
 .popup.--active {
+  z-index: 2;
   opacity: 1;
   visibility: visible;
-  z-index: 3;
 }
 .popup__wrapper {
   color: #000;
